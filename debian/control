@@ -1,0 +1,15 @@
+Source: bgp-extrapolator
+Section: education
+Priority: optional
+Maintainer: Cameron Morris <cameron.morris@uconn.edu>
+Build-Depends: g++,make,libboost-dev,libboost-test-dev,libboost-program-options-dev,libpqxx-dev,libboost-filesystem-dev,libboost-log-dev,libboost-thread-dev,libpq-dev,debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/c-morris/BGPExtrapolator
+#Vcs-Git: git://anonscm.debian.org/collab-maint/bgp-extrapolator.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/bgp-extrapolator.git
+
+Package: bgp-extrapolator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Propagate BGP Announcements through an AS Graph for RIB Estimation
+ Propagate BGP Announcements through an AS Graph for RIB Estimation. 

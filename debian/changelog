@@ -1,0 +1,5 @@
+bgp-extrapolator (0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Cameron Morris <cameron.morris@uconn.edu>  Sun, 01 Mar 2020 19:15:51 -0500

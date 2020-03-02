@@ -1,0 +1,11 @@
+Package: bgp-extrapolator
+Version: 0.1-1
+Architecture: amd64
+Maintainer: Cameron Morris <cameron.morris@uconn.edu>
+Installed-Size: 431
+Depends: libboost-log1.58.0, libboost-program-options1.58.0, libboost-system1.58.0, libboost-thread1.58.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libpqxx-4.0 (>= 4.0), libstdc++6 (>= 5.2)
+Section: education
+Priority: optional
+Homepage: https://github.com/c-morris/BGPExtrapolator
+Description: Propagate BGP Announcements through an AS Graph for RIB Estimation
+ Propagate BGP Announcements through an AS Graph for RIB Estimation.
