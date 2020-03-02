@@ -1,10 +1,8 @@
 bgp-extrapolator for Debian
 --------------------------
 
-<this file describes information about the source package, see Debian policy
-manual section 4.14. You WILL either need to modify or delete this file>
+Debian package for https://github.com/c-morris/BGPExtrapolator
 
 
-
- -- Cameron Morris <cam@unknown>  Sun, 01 Mar 2020 19:15:51 -0500
+ -- Cameron Morris <cameron.morris@uconn.edu>  Mon, 02 Mar 2020 14:15:51 -0500
 
