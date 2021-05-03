@@ -2,7 +2,7 @@ Source: bgp-extrapolator
 Section: education
 Priority: optional
 Maintainer: Cameron Morris <cameron.morris@uconn.edu>
-Build-Depends: g++,make,libboost-dev,libboost-test-dev,libboost-program-options-dev,libpqxx-dev,libboost-filesystem-dev,libboost-log-dev,libboost-thread-dev,libpq-dev,debhelper (>=9)
+Build-Depends: g++,make,libboost-dev,libboost-test-dev,libboost-program-options-dev (>= 1.71.0),libpqxx-dev (>= 1.71.0),libboost-filesystem-dev,libboost-log-dev (>= 1.71.0),libboost-thread-dev (>= 1.71.0),libpq-dev,debhelper (>=9)
 Standards-Version: 3.9.6
 Homepage: https://github.com/c-morris/BGPExtrapolator
 #Vcs-Git: git://anonscm.debian.org/collab-maint/bgp-extrapolator.git
