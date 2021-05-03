@@ -21,8 +21,8 @@
 # 	make clean
 
 override_dh_auto_test:
-	make clean
-	dh_auto_test
+# make clean
+# dh_auto_test
 
 # dh_make generated override targets
 # This is example for Cmake (See https://bugs.debian.org/641051 )
